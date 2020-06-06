@@ -1,4 +1,8 @@
 #### Description of preliminary data preprocessing
+1. define the features set, 
+2. define the target set,
+3. split into the training and testing sets,
+4. create the `StandardScaler` instance, fit the scaler with the training set, and scale the data. 
 
 #### Description of preliminary feature engineering and preliminary feature selection, inclduing decision making process
 
@@ -21,3 +25,5 @@ Random forest algorithms are beneficial because they:
  -   Can handle thousands of input variables without variable deletion.
  -   Are robust to outliers and nonlinear data.
  -   Run efficiently on large datasets.
+ 
+The main limitation of random forest is that a large number of trees can make the algorithm *too slow and ineffective* for real-time predictions. Random Forest creates a lot of trees and require much more time to train.
